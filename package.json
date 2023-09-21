@@ -1,5 +1,5 @@
 {
-  "name": "task-manager",
+  "name": "time-manager",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
