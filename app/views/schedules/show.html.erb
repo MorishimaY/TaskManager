@@ -1,7 +1,8 @@
 <%= render "shared/header" %>
 
 <h3>スケジュール詳細</h3>
-
+<p><%= link_to "編集", edit_schedule_path %></p>
+<p><%= link_to "削除", schedule_path , method: :delete, data: { confirm: "本当に削除しますか？" } %></p>
 <div>
     <table>
     <tr>
